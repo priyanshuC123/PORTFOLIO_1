@@ -1,0 +1,25 @@
+#about{
+    text-align: center;
+    padding-top: 7rem;
+    background-color: aliceblue;
+    color: #2D033B;
+}
+.about_sec{
+    padding-top: 7rem;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.about_content{
+    text-align: left;
+    position: relative;
+    left: 200px;
+}
+
+.about_image img{
+    width: 60%;
+    position: relative;
+    bottom: 80px;  
+    left: 50px;
+    transform: rotate(20deg);
+}

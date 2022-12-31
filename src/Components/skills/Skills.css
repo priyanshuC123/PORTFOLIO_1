@@ -1,0 +1,36 @@
+#skills{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+    
+}
+.skills_sec{
+    
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.skills_content{
+    text-align: left;
+    position: relative;
+    left: 210px;
+    top: 60px;
+    width: 60%;
+}
+.skills_content li{
+   padding: 1rem;
+}
+
+
+.skills_image img{
+    width: 80%;
+    position: relative;
+   top: 80px;
+    left: 150px;
+    transform: rotate(-10deg);
+  
+}
+
+.bold{
+    font-weight: bold;
+}

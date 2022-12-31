@@ -1,0 +1,61 @@
+#contact{
+    text-align: center;
+    padding-top: 5rem;
+    background-color: aliceblue;
+    color: #2D033B;
+    padding-bottom: 5rem;
+}
+.contact_us{
+    width: 50%;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: 35% 53%;
+    gap: 12%;
+    position: relative;
+    left: 370px;
+}
+.contact_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.contact_content article{
+    background-color: #2D033B;
+    padding: 1.2rem;
+    margin: 10px;
+    
+    text-align: center;
+    border: 1px solid transparent;
+    color: aliceblue;
+}
+.contact_content article h4{
+    font-size: 1rem;
+}
+.contact_content article h5{
+    font-size: 0.8rem;}
+.icons{
+      font-size: 2rem;
+      margin: 0.3rem;
+    }
+.contact_content article a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+   
+}
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    background: transparent;
+    border: 2px solid;
+
+}
+.contact_forms{
+    position: relative;
+    top: 10px;
+}
