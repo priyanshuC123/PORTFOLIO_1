@@ -6,16 +6,18 @@ import {BsInstagram} from 'react-icons/bs'
 
 function Footer() {
   return (
+    <section id="footer">
     <footer>
       <a href="#" className="footer_logo"></a>
       <div className="footer_socials">
-        <a href="https://www.linkedin.com/in/priyanshu-choudhary-44b49a254/" target="_blank"><AiFillLinkedin className='icons'/></a>
-        <a href="https://github.com/priyanshuC123" target="_blank"><AiFillGithub className='icons'/></a>
-        <a href="https://www.instagram.com/pr_iyans_hu/" target="_blank"><BsInstagram className='icons'/></a>
-        <h4>@copyrights; All Rights Reserved</h4>
+        <a href="https://www.linkedin.com/in/priyanshu-choudhary-44b49a254/" target="_blank"><AiFillLinkedin size={30} className='icons1'/></a>
+        <a href="https://github.com/priyanshuC123" target="_blank"><AiFillGithub size={30} className='icons1'/></a>
+        <a href="https://www.instagram.com/pr_iyans_hu/" target="_blank"><BsInstagram size={30} className='icons1'/></a>
+        <h4 className='footer_content'>@copyrights; All Rights Reserved</h4>
     </div>
 
     </footer>
+    </section>
   )
 }
 

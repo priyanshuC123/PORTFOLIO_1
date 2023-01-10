@@ -1,6 +1,6 @@
 import React from 'react'
 import './Skills.css'
-import Nit from '../../assets/skills.png'
+import NIT from '../../assets/skills.png'
 
 function Skills() {
   return (
@@ -9,11 +9,7 @@ function Skills() {
     <h1>Skills</h1>
     
     <div className="skills_sec">
-       <div className="skills_image">
-           <div>
-            <img src={Nit} alt="image.png" />
-           </div>
-       </div>
+         
         <div className="skills_content">
         <ul>
             <li>
@@ -32,6 +28,10 @@ function Skills() {
         </ul>
        
       </div>
+     
+     <div className="skill_image" >
+          <img src={NIT} alt="image.png" />
+     </div>
       
     </div>
 

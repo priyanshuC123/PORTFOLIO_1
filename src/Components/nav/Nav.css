@@ -1,54 +1,39 @@
-
-.navbar{
-    margin: 0;
-    padding: 0;
-    background: white; 
-    background-color: #2D033B;
-    position: fixed; 
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    z-index: 10;
-  
+.icons{
+    color: #2D033B;
     
 }
-.brand{
-    padding-left: 30px;
-}
-.nav-menu{
-    display: flex;
-    position: relative;
-    right: 75px;
-    top: 17px;
-}
 
-
-.nav-menu li {
-    padding: 0 3rem;
-}
-
-.navbar a{
+.navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2D033B;
     color: aliceblue;
-  text-decoration: none;
-}  
+}
 
-.nav-menu1{
-    display: flex;
+.brand{
     position: relative;
-    left: 100px;
-    top: 15px;
-}
-.nav-menu1 li {
-    padding: 0 1rem;
-    font-size: 1.5rem;
-
+    right:40px;
 }
 
-.download_cv{
+h5{
+    padding: 0 30px;
+}
 
- position: relative;
- top: 6px;
- right: 20px;
- border-radius: 0%;
+.drop{
+    padding: 0 30px;
+}
+
+.content1{
+    position: relative;
+    left: 390px;
+    
+}
+@media screen and (max-width: 786px) {
+    .brand{
+        position: static;
+        
+    } 
+    .content1{
+        position: static;
+    }
 }

@@ -33,7 +33,7 @@
 }
 .contact_content article h5{
     font-size: 0.8rem;}
-.icons{
+.icons2{
       font-size: 2rem;
       margin: 0.3rem;
     }
@@ -58,4 +58,53 @@ input, textarea{
 .contact_forms{
     position: relative;
     top: 10px;
+}
+
+@media screen and (max-width: 786px){
+    .contact_us{
+        width: 100%;
+        padding-top: 5rem;
+        display: grid;
+        grid-template-columns: 35% 60%;
+        gap: 5%;
+        position: relative;
+        left: 0px;
+    }
+    .contact_content article{
+        background-color: #2D033B;
+        
+        margin: 1.2px;
+        text-align: center;
+        border: 1px solid transparent;
+        color: aliceblue;
+    }
+    #contact{
+        text-align: center;
+        
+        background-color: aliceblue;
+        color: #2D033B;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+    
+    .contact_content article{
+     padding: 1rem;
+    }
+    .contact_content article h4{
+        font-size: 0.7rem;
+    }
+    .contact_content article a{
+    font-size: 1rem;
+    text-align: center;
+    }
+    .icons2{
+          font-size: 1.5rem;
+          margin: 0.3rem;
+        }
+    .contact_us{
+         padding-top: 30px;
+        }
 }

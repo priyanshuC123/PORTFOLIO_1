@@ -1,11 +1,15 @@
 
-.icons{
+.icons1 {
     text-decoration: none;
     color: aliceblue;
     margin: 1rem;
 }
 
 footer{
-    padding: 5rem;
+    padding: 2rem;
     text-align: center;
 }
+@media screen and (max-width: 786px){
+.footer_content{
+    font-size: 0.9rem;
+}}

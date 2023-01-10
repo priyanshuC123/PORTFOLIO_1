@@ -25,22 +25,22 @@ function Contact() {
       <div className="contact_us">
         <div className="contact_content">
             <article>
-              <MdOutlineEmail className='icons'/>
+              <MdOutlineEmail className='icons2'/>
               <h4>Email</h4>
-              <h5>priyanschoudhary100@gmail.com</h5>
-              <a href="mailto:priyanschoudhary100@gmail.com">Send a message</a>
+              
+              <a href="mailto:priyanschoudhary100@gmail.com">Send a Message</a>
             </article>
             <article>
-              <AiOutlineInstagram className='icons'/>
+              <AiOutlineInstagram className='icons2'/>
               <h4>Instagram DM</h4>
-              <h5>pr_iyans_hu</h5>
-              <a href="https://www.instagram.com/pr_iyans_hu/" target='_blank'>Send a message</a>
+              
+              <a href="https://www.instagram.com/pr_iyans_hu/" target='_blank'>Send a Message</a>
             </article>
             <article>
-              <BsWhatsapp className='icons'/>
+              <BsWhatsapp className='icons2'/>
               <h4>WhatsApp</h4>
-              <h5></h5>
-              <a href="https://wa.me/918169117063" target='_blank'>Send a message</a>
+              
+              <a href="https://wa.me/918169117063" target='_blank'>Send a Message</a>
             </article>
         </div>
          <div className="contact_forms">
