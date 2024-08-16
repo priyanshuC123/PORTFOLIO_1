@@ -1,7 +1,7 @@
 
 import React from 'react'
 import './Header.css'
-import ME from '../../assets/priyanshu.jpeg'
+import ME from '../../assets/Priyanshu.jpeg'
 import NIT from '../../assets/skills.png'
 
 function Header() {
