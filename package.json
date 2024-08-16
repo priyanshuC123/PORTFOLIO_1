@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "preinstall": "npm install",  // Add this line to ensure dependencies are installed
+  "preinstall": "npm install", 
   "start": "react-scripts start",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
