@@ -1,7 +1,7 @@
 
 import React from 'react'
 import './Header.css'
-import ME from '../../assets/prof.jpg'
+import ME from '../../assets/priyanshu.jpeg'
 import NIT from '../../assets/skills.png'
 
 function Header() {
@@ -14,7 +14,7 @@ function Header() {
       <h5>Hello I'm</h5>
       <h1>
       <strong>Priyanshu Choudhary.</strong> </h1>
-      <h5>Currently a 2nd year undergraduate at <a href="https://www.nitrkl.ac.in/" target='_blank'>NIT Rourkela</a> </h5>
+      <h5>Currently a final year undergraduate at <a href="https://www.nitrkl.ac.in/" target='_blank'>NIT Rourkela</a> </h5>
       <a href="#contact" className="btn btn-outline-secondary">Lets talk!</a> 
       </div>
     </div>
