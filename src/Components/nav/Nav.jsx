@@ -41,9 +41,14 @@ class NavBar extends Component {
                 <NavDropdown.Item href='https://www.instagram.com/pr_iyans_hu/'><FiInstagram size={35} className='icons'/>Instagram</NavDropdown.Item>
               </NavDropdown>
              </Nav>
-             <Nav className='content1'>
-             <Nav.Link><a href="#" download className='download_cv btn btn-outline-secondary'>Download CV</a> </Nav.Link>
-             </Nav>
+            <Nav className='content1'>
+  <Nav.Link>
+    <a href="../../assets/121BM0731_Priyanshu_Biomedical.pdf" download className='download_cv btn btn-outline-secondary'>
+      Download CV
+    </a>
+  </Nav.Link>
+</Nav>
+
              </Navbar.Collapse>
              </Container>
            </Navbar>
